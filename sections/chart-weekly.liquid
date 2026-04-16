@@ -1,12 +1,4 @@
-{%- liquid
-  assign chart_data = shop.metafields.chart.weekly_top30.value
-  assign chart_entries = chart_data.chart
-  assign week_end = chart_data.week_end
-  assign week_start = chart_data.week_start
-  assign show_units = section.settings.show_units
--%}
-
-<style>
+﻿<style>
   .sd-chart {
     max-width: 900px;
     margin: 0 auto;
@@ -39,6 +31,12 @@
     opacity: 0.6;
     letter-spacing: 0.05em;
   }
+  .sd-chart__loading {
+    text-align: center;
+    padding: 80px 20px;
+    opacity: 0.4;
+    font-size: 14px;
+  }
   .sd-chart__list {
     list-style: none;
     margin: 0;
@@ -49,7 +47,7 @@
     grid-template-columns: 56px 52px 72px 1fr auto;
     align-items: center;
     gap: 16px;
-    padding: 14px 0;
+    padding: 14px 8px;
     border-bottom: 1px solid rgba(128,128,128,0.15);
     text-decoration: none;
     color: inherit;
@@ -58,9 +56,6 @@
   }
   .sd-chart__entry:hover {
     background: rgba(128,128,128,0.06);
-    padding-left: 8px;
-    padding-right: 8px;
-    margin: 0 -8px;
   }
   .sd-chart__pos {
     font-size: 28px;
@@ -70,21 +65,18 @@
     text-align: right;
     opacity: 0.15;
     min-width: 40px;
+    transition: opacity 0.15s;
   }
   .sd-chart__entry:hover .sd-chart__pos {
     opacity: 1;
   }
   .sd-chart__pos--top3 {
-    opacity: 1;
+    opacity: 1 !important;
   }
   .sd-chart__movement {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 1.2;
     min-width: 44px;
   }
   .sd-chart__badge {
@@ -98,23 +90,10 @@
     letter-spacing: 0.05em;
     white-space: nowrap;
   }
-  .sd-chart__badge--new {
-    background: #000;
-    color: #fff;
-  }
-  .sd-chart__badge--up {
-    background: rgba(34,197,94,0.12);
-    color: #16a34a;
-  }
-  .sd-chart__badge--down {
-    background: rgba(239,68,68,0.1);
-    color: #dc2626;
-  }
-  .sd-chart__badge--same {
-    background: rgba(128,128,128,0.1);
-    color: rgba(128,128,128,0.8);
-    font-size: 14px;
-  }
+  .sd-chart__badge--new  { background: #000; color: #fff; }
+  .sd-chart__badge--up   { background: rgba(34,197,94,0.12); color: #16a34a; }
+  .sd-chart__badge--down { background: rgba(239,68,68,0.1);  color: #dc2626; }
+  .sd-chart__badge--same { background: rgba(128,128,128,0.1); color: rgba(128,128,128,0.8); font-size: 14px; }
   .sd-chart__image {
     width: 72px;
     height: 72px;
@@ -129,9 +108,7 @@
     border-radius: 4px;
     background: rgba(128,128,128,0.1);
   }
-  .sd-chart__info {
-    min-width: 0;
-  }
+  .sd-chart__info { min-width: 0; }
   .sd-chart__product-title {
     font-size: 15px;
     font-weight: 600;
@@ -161,139 +138,111 @@
     text-transform: uppercase;
     opacity: 0.7;
   }
-  .sd-chart__empty {
-    text-align: center;
-    padding: 80px 20px;
-    opacity: 0.4;
-  }
-  .sd-chart__empty p {
-    font-size: 14px;
-    margin: 8px 0 0;
-  }
   @media (max-width: 600px) {
-    .sd-chart__entry {
-      grid-template-columns: 40px 44px 56px 1fr;
-    }
-    .sd-chart__units {
-      display: none;
-    }
-    .sd-chart__pos {
-      font-size: 22px;
-    }
-    .sd-chart__image {
-      width: 56px;
-      height: 56px;
-    }
-    .sd-chart__image--placeholder {
-      width: 56px;
-      height: 56px;
-    }
-    .sd-chart__product-title {
-      font-size: 13px;
-    }
+    .sd-chart__entry { grid-template-columns: 40px 44px 56px 1fr; }
+    .sd-chart__units { display: none; }
+    .sd-chart__pos   { font-size: 22px; }
+    .sd-chart__image,
+    .sd-chart__image--placeholder { width: 56px; height: 56px; }
+    .sd-chart__product-title { font-size: 13px; }
   }
 </style>
 
 <div class="sd-chart section-spacing{% if section.settings.disable_top_spacing %} section-spacing--disable-top{% endif %}{% if section.settings.disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-
   <div class="sd-chart__header">
     <p class="sd-chart__eyebrow">Spindizzy Records</p>
     <h1 class="sd-chart__title">The Weekly Top 30</h1>
-    {%- if week_end != blank -%}
-      <p class="sd-chart__date">
-        Week ending
-        <strong>
-          {{- week_end | date: '%A %-d %B %Y' -}}
-        </strong>
-      </p>
-    {%- endif -%}
+    <p class="sd-chart__date" id="sd-chart-date">Loading chart&hellip;</p>
   </div>
-
-  {%- if chart_entries == blank or chart_entries.size == 0 -%}
-    <div class="sd-chart__empty">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-        <path d="M9 19V6l12-3v13M9 19c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm12-3c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zM9 10l12-3"/>
-      </svg>
-      <p>Chart data not yet available — check back after Wednesday midnight.</p>
-    </div>
-  {%- else -%}
-    <ol class="sd-chart__list">
-      {%- for entry in chart_entries -%}
-        {%- liquid
-          assign prev = entry.previous_position
-          assign cur  = entry.position
-          if prev == blank or prev == nil
-            assign movement = 'new'
-          elsif prev > cur
-            assign movement = 'up'
-            assign movement_num = prev | minus: cur
-          elsif prev < cur
-            assign movement = 'down'
-            assign movement_num = cur | minus: prev
-          else
-            assign movement = 'same'
-          endif
-          assign is_top3 = false
-          if cur <= 3
-            assign is_top3 = true
-          endif
-        -%}
-        <li>
-          <a href="/products/{{ entry.handle }}" class="sd-chart__entry">
-
-            <div class="sd-chart__pos{% if is_top3 %} sd-chart__pos--top3{% endif %}">
-              {{ cur }}
-            </div>
-
-            <div class="sd-chart__movement">
-              {%- case movement -%}
-                {%- when 'new' -%}
-                  <span class="sd-chart__badge sd-chart__badge--new">NEW</span>
-                {%- when 'up' -%}
-                  <span class="sd-chart__badge sd-chart__badge--up">&#9650; {{ movement_num }}</span>
-                {%- when 'down' -%}
-                  <span class="sd-chart__badge sd-chart__badge--down">&#9660; {{ movement_num }}</span>
-                {%- when 'same' -%}
-                  <span class="sd-chart__badge sd-chart__badge--same">&mdash;</span>
-              {%- endcase -%}
-            </div>
-
-            {%- if entry.image != blank -%}
-              <img
-                class="sd-chart__image"
-                src="{{ entry.image | replace: '.jpg', '_160x160_crop_center.jpg' | replace: '.png', '_160x160_crop_center.png' | replace: '.webp', '_160x160_crop_center.webp' }}"
-                alt="{{ entry.title | escape }}"
-                width="72"
-                height="72"
-                loading="lazy"
-              >
-            {%- else -%}
-              <div class="sd-chart__image--placeholder"></div>
-            {%- endif -%}
-
-            <div class="sd-chart__info">
-              <p class="sd-chart__product-title">{{ entry.title }}</p>
-              {%- if prev != blank and prev != nil -%}
-                <p class="sd-chart__meta">Last week: #{{ prev }}</p>
-              {%- elsif movement == 'new' -%}
-                <p class="sd-chart__meta">New entry</p>
-              {%- endif -%}
-            </div>
-
-            {%- if show_units -%}
-              <div class="sd-chart__units">
-                {{ entry.units }}
-                <span>sold</span>
-              </div>
-            {%- endif -%}
-
-          </a>
-        </li>
-      {%- endfor -%}
-    </ol>
-  {%- endif -%}
-
+  <div id="sd-chart-body">
+    <p class="sd-chart__loading">Loading chart data&hellip;</p>
+  </div>
 </div>
+
+<script>
+(function () {
+  var CHART_URL = 'https://raw.githubusercontent.com/janeblonde/Shopify-Charts-top-30-by-Modus/main/chart-data.json';
+  var SHOW_UNITS = {{ section.settings.show_units | json }};
+
+  function formatDate(iso) {
+    var d = new Date(iso);
+    return d.toLocaleDateString('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function badge(entry) {
+    var prev = entry.previous_position;
+    var cur  = entry.position;
+    if (prev === null || prev === undefined) {
+      return '<span class="sd-chart__badge sd-chart__badge--new">NEW</span>';
+    } else if (prev > cur) {
+      return '<span class="sd-chart__badge sd-chart__badge--up">&#9650; ' + (prev - cur) + '</span>';
+    } else if (prev < cur) {
+      return '<span class="sd-chart__badge sd-chart__badge--down">&#9660; ' + (cur - prev) + '</span>';
+    } else {
+      return '<span class="sd-chart__badge sd-chart__badge--same">&mdash;</span>';
+    }
+  }
+
+  function imgSrc(url) {
+    if (!url) return '';
+    return url.replace(/(\.[a-z]+)(\?|$)/, '_160x160_crop_center$1$2');
+  }
+
+  function render(data) {
+    // Update date header
+    var dateEl = document.getElementById('sd-chart-date');
+    if (dateEl && data.week_end) {
+      dateEl.innerHTML = 'Week ending <strong>' + formatDate(data.week_end) + '</strong>';
+    }
+
+    var entries = data.chart || [];
+    if (entries.length === 0) {
+      document.getElementById('sd-chart-body').innerHTML = '<p class="sd-chart__loading">No chart data available yet.</p>';
+      return;
+    }
+
+    var html = '<ol class="sd-chart__list">';
+    entries.forEach(function (entry) {
+      var isTop3 = entry.position <= 3;
+      var prev   = entry.previous_position;
+      var metaText = (prev === null || prev === undefined) ? 'New entry' : 'Last week: #' + prev;
+      var imgHtml = entry.image
+        ? '<img class="sd-chart__image" src="' + imgSrc(entry.image) + '" alt="" width="72" height="72" loading="lazy">'
+        : '<div class="sd-chart__image--placeholder"></div>';
+      var unitsHtml = SHOW_UNITS
+        ? '<div class="sd-chart__units">' + entry.units + '<span>sold</span></div>'
+        : '';
+
+      html += '<li>';
+      html += '<a href="/products/' + entry.handle + '" class="sd-chart__entry">';
+      html += '<div class="sd-chart__pos' + (isTop3 ? ' sd-chart__pos--top3' : '') + '">' + entry.position + '</div>';
+      html += '<div class="sd-chart__movement">' + badge(entry) + '</div>';
+      html += imgHtml;
+      html += '<div class="sd-chart__info">';
+      html += '<p class="sd-chart__product-title">' + entry.title.replace(/</g, '&lt;') + '</p>';
+      html += '<p class="sd-chart__meta">' + metaText + '</p>';
+      html += '</div>';
+      html += unitsHtml;
+      html += '</a></li>';
+    });
+    html += '</ol>';
+
+    document.getElementById('sd-chart-body').innerHTML = html;
+  }
+
+  fetch(CHART_URL + '?t=' + Date.now())
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(render)
+    .catch(function (err) {
+      document.getElementById('sd-chart-body').innerHTML = '<p class="sd-chart__loading">Chart data not yet available -- check back after Wednesday midnight.</p>';
+      document.getElementById('sd-chart-date').textContent = '';
+      console.warn('Chart load error:', err);
+    });
+})();
+</script>
 
 {% schema %}
 {
