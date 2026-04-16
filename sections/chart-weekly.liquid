@@ -1,0 +1,334 @@
+{%- liquid
+  assign chart_data = shop.metafields.chart.weekly_top30.value
+  assign chart_entries = chart_data.chart
+  assign week_end = chart_data.week_end
+  assign week_start = chart_data.week_start
+  assign show_units = section.settings.show_units
+-%}
+
+<style>
+  .sd-chart {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    font-family: inherit;
+  }
+  .sd-chart__header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid currentColor;
+  }
+  .sd-chart__eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 8px;
+  }
+  .sd-chart__title {
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin: 0 0 16px;
+  }
+  .sd-chart__date {
+    font-size: 13px;
+    opacity: 0.6;
+    letter-spacing: 0.05em;
+  }
+  .sd-chart__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .sd-chart__entry {
+    display: grid;
+    grid-template-columns: 56px 52px 72px 1fr auto;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(128,128,128,0.15);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s;
+    border-radius: 6px;
+  }
+  .sd-chart__entry:hover {
+    background: rgba(128,128,128,0.06);
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 -8px;
+  }
+  .sd-chart__pos {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    text-align: right;
+    opacity: 0.15;
+    min-width: 40px;
+  }
+  .sd-chart__entry:hover .sd-chart__pos {
+    opacity: 1;
+  }
+  .sd-chart__pos--top3 {
+    opacity: 1;
+  }
+  .sd-chart__movement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    min-width: 44px;
+  }
+  .sd-chart__badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+  .sd-chart__badge--new {
+    background: #000;
+    color: #fff;
+  }
+  .sd-chart__badge--up {
+    background: rgba(34,197,94,0.12);
+    color: #16a34a;
+  }
+  .sd-chart__badge--down {
+    background: rgba(239,68,68,0.1);
+    color: #dc2626;
+  }
+  .sd-chart__badge--same {
+    background: rgba(128,128,128,0.1);
+    color: rgba(128,128,128,0.8);
+    font-size: 14px;
+  }
+  .sd-chart__image {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+    background: rgba(128,128,128,0.1);
+  }
+  .sd-chart__image--placeholder {
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+    background: rgba(128,128,128,0.1);
+  }
+  .sd-chart__info {
+    min-width: 0;
+  }
+  .sd-chart__product-title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sd-chart__meta {
+    font-size: 12px;
+    opacity: 0.5;
+    margin: 0;
+  }
+  .sd-chart__units {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    white-space: nowrap;
+    opacity: 0.35;
+  }
+  .sd-chart__units span {
+    display: block;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .sd-chart__empty {
+    text-align: center;
+    padding: 80px 20px;
+    opacity: 0.4;
+  }
+  .sd-chart__empty p {
+    font-size: 14px;
+    margin: 8px 0 0;
+  }
+  @media (max-width: 600px) {
+    .sd-chart__entry {
+      grid-template-columns: 40px 44px 56px 1fr;
+    }
+    .sd-chart__units {
+      display: none;
+    }
+    .sd-chart__pos {
+      font-size: 22px;
+    }
+    .sd-chart__image {
+      width: 56px;
+      height: 56px;
+    }
+    .sd-chart__image--placeholder {
+      width: 56px;
+      height: 56px;
+    }
+    .sd-chart__product-title {
+      font-size: 13px;
+    }
+  }
+</style>
+
+<div class="sd-chart section-spacing{% if section.settings.disable_top_spacing %} section-spacing--disable-top{% endif %}{% if section.settings.disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+
+  <div class="sd-chart__header">
+    <p class="sd-chart__eyebrow">Spindizzy Records</p>
+    <h1 class="sd-chart__title">The Weekly Top 30</h1>
+    {%- if week_end != blank -%}
+      <p class="sd-chart__date">
+        Week ending
+        <strong>
+          {{- week_end | date: '%A %-d %B %Y' -}}
+        </strong>
+      </p>
+    {%- endif -%}
+  </div>
+
+  {%- if chart_entries == blank or chart_entries.size == 0 -%}
+    <div class="sd-chart__empty">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M9 19V6l12-3v13M9 19c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm12-3c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zM9 10l12-3"/>
+      </svg>
+      <p>Chart data not yet available — check back after Wednesday midnight.</p>
+    </div>
+  {%- else -%}
+    <ol class="sd-chart__list">
+      {%- for entry in chart_entries -%}
+        {%- liquid
+          assign prev = entry.previous_position
+          assign cur  = entry.position
+          if prev == blank or prev == nil
+            assign movement = 'new'
+          elsif prev > cur
+            assign movement = 'up'
+            assign movement_num = prev | minus: cur
+          elsif prev < cur
+            assign movement = 'down'
+            assign movement_num = cur | minus: prev
+          else
+            assign movement = 'same'
+          endif
+          assign is_top3 = false
+          if cur <= 3
+            assign is_top3 = true
+          endif
+        -%}
+        <li>
+          <a href="/products/{{ entry.handle }}" class="sd-chart__entry">
+
+            <div class="sd-chart__pos{% if is_top3 %} sd-chart__pos--top3{% endif %}">
+              {{ cur }}
+            </div>
+
+            <div class="sd-chart__movement">
+              {%- case movement -%}
+                {%- when 'new' -%}
+                  <span class="sd-chart__badge sd-chart__badge--new">NEW</span>
+                {%- when 'up' -%}
+                  <span class="sd-chart__badge sd-chart__badge--up">&#9650; {{ movement_num }}</span>
+                {%- when 'down' -%}
+                  <span class="sd-chart__badge sd-chart__badge--down">&#9660; {{ movement_num }}</span>
+                {%- when 'same' -%}
+                  <span class="sd-chart__badge sd-chart__badge--same">&mdash;</span>
+              {%- endcase -%}
+            </div>
+
+            {%- if entry.image != blank -%}
+              <img
+                class="sd-chart__image"
+                src="{{ entry.image | replace: '.jpg', '_160x160_crop_center.jpg' | replace: '.png', '_160x160_crop_center.png' | replace: '.webp', '_160x160_crop_center.webp' }}"
+                alt="{{ entry.title | escape }}"
+                width="72"
+                height="72"
+                loading="lazy"
+              >
+            {%- else -%}
+              <div class="sd-chart__image--placeholder"></div>
+            {%- endif -%}
+
+            <div class="sd-chart__info">
+              <p class="sd-chart__product-title">{{ entry.title }}</p>
+              {%- if prev != blank and prev != nil -%}
+                <p class="sd-chart__meta">Last week: #{{ prev }}</p>
+              {%- elsif movement == 'new' -%}
+                <p class="sd-chart__meta">New entry</p>
+              {%- endif -%}
+            </div>
+
+            {%- if show_units -%}
+              <div class="sd-chart__units">
+                {{ entry.units }}
+                <span>sold</span>
+              </div>
+            {%- endif -%}
+
+          </a>
+        </li>
+      {%- endfor -%}
+    </ol>
+  {%- endif -%}
+
+</div>
+
+{% schema %}
+{
+  "name": "Weekly Chart",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_units",
+      "label": "Show units sold",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Weekly Chart"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["page"]
+  }
+}
+{% endschema %}

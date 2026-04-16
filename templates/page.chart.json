@@ -1,0 +1,9 @@
+﻿{
+  "sections": {
+    "main": {
+      "type": "chart-weekly",
+      "settings": {}
+    }
+  },
+  "order": ["main"]
+}

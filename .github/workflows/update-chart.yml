@@ -1,0 +1,32 @@
+name: Update Weekly Chart
+
+on:
+  # Runs Thursday 00:00 UTC = Wednesday midnight GMT (winter)
+  # Add the 23:00 Wednesday schedule to also cover BST (summer, UTC+1)
+  schedule:
+    - cron: '0 0 * * 4'   # Thu 00:00 UTC  — Wednesday midnight GMT
+    - cron: '0 23 * * 3'  # Wed 23:00 UTC  — Wednesday midnight BST
+  # Also allows a manual trigger from the GitHub Actions UI
+  workflow_dispatch:
+
+jobs:
+  update-chart:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run chart update script
+        env:
+          SHOPIFY_SHOP:  ${{ secrets.SHOPIFY_SHOP }}
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_TOKEN }}
+        run: python scripts/update_chart.py
