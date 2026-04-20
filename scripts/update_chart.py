@@ -34,6 +34,58 @@ GH_HEADERS = {
 }
 GH_FILE_PATH = "chart-data.json"
 
+# Collections to exclude from the chart (by handle)
+EXCLUDE_COLLECTIONS = [
+    "events",
+    "hi-fi-accessories",
+    "accessories",
+    "sleeves",
+    "gift-cards",
+]
+
+
+def get_excluded_product_ids() -> set:
+    """Return a set of product IDs belonging to any excluded collection."""
+    excluded = set()
+    for handle in EXCLUDE_COLLECTIONS:
+        collection_id = None
+        # Check custom collections
+        for ctype in ("custom_collections", "smart_collections"):
+            r = requests.get(
+                f"{BASE}/{ctype}.json",
+                headers=HEADERS,
+                params={"handle": handle, "fields": "id"},
+                timeout=15,
+            )
+            if r.status_code == 200:
+                cols = r.json().get(ctype.replace("custom_", "").replace("smart_", ""), [])
+                # key name differs: custom_collections -> custom_collections, smart_collections -> smart_collections
+                key = "custom_collections" if ctype == "custom_collections" else "smart_collections"
+                cols = r.json().get(key, [])
+                if cols:
+                    collection_id = cols[0]["id"]
+                    break
+        if not collection_id:
+            print(f"  Collection not found: {handle}")
+            continue
+        # Paginate through all products in this collection
+        url = f"{BASE}/collections/{collection_id}/products.json"
+        params = {"limit": 250, "fields": "id"}
+        while url:
+            r = requests.get(url, headers=HEADERS, params=params, timeout=15)
+            if r.status_code != 200:
+                break
+            for p in r.json().get("products", []):
+                excluded.add(str(p["id"]))
+            url = None
+            params = {}
+            for part in r.headers.get("Link", "").split(","):
+                part = part.strip()
+                if 'rel="next"' in part:
+                    url = part.split(";")[0].strip().strip("<>")
+        print(f"  Excluded collection '{handle}': {len(excluded)} products so far")
+    return excluded
+
 
 def get_orders(since: datetime, until: datetime) -> list:
     orders = []
@@ -119,6 +171,10 @@ def main() -> None:
 
     print(f"Chart period: {week_start.date()} -> {week_end.date()}")
 
+    print("Building exclusion list...")
+    excluded_ids = get_excluded_product_ids()
+    print(f"Excluding {len(excluded_ids)} products from {len(EXCLUDE_COLLECTIONS)} collections")
+
     orders = get_orders(week_start, week_end)
     print(f"Orders found: {len(orders)}")
 
@@ -127,6 +183,8 @@ def main() -> None:
         for item in order.get("line_items", []):
             pid = str(item.get("product_id") or "")
             if not pid or pid == "None":
+                continue
+            if pid in excluded_ids:
                 continue
             sales[pid] = sales.get(pid, 0) + int(item.get("quantity", 0))
 
