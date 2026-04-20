@@ -1,218 +1,191 @@
 {
-  "updated": "2026-04-16T16:57:51.227810+00:00",
-  "week_start": "2026-04-09T16:57:51.227810+00:00",
-  "week_end": "2026-04-16T16:57:51.227810+00:00",
+  "updated": "2026-04-20T10:28:09.388626+00:00",
+  "week_start": "2026-04-13T10:28:09.388626+00:00",
+  "week_end": "2026-04-20T10:28:09.388626+00:00",
   "chart": [
     {
       "position": 1,
-      "previous_position": null,
-      "product_id": "16234766205273",
-      "handle": "angine-de-poitrine-vol-ii-1",
-      "title": "ANGINE DE POITRINE - Vol.II",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ADP_Vol2_01.jpg?v=1775743830",
-      "units": 110
-    },
-    {
-      "position": 2,
-      "previous_position": null,
-      "product_id": "16234749460825",
-      "handle": "angine-de-poitrine-vol-i-1",
-      "title": "ANGINE DE POITRINE - Vol.I",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ADP_Vol1_01.jpg?v=1775743825",
-      "units": 107
-    },
-    {
-      "position": 3,
-      "previous_position": null,
-      "product_id": "16232228421977",
-      "handle": "scustin-instore-may-8th1",
-      "title": "SCUSTIN - Instore - MAY 8th",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/scustin_2e171135-a2c8-4ebf-84dc-adad0d310db9.jpg?v=1775666209",
-      "units": 41
-    },
-    {
-      "position": 4,
-      "previous_position": null,
-      "product_id": "16236078727513",
-      "handle": "enter-shikari-lose-your-self",
-      "title": "Enter Shikari - Lose Your Self",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/1275e9ec67ad02ece679e20f5995c955.png?v=1775829175",
-      "units": 32
-    },
-    {
-      "position": 5,
-      "previous_position": null,
-      "product_id": "7294909382817",
-      "handle": "12-polylined-white-inner-sleeves-12-polylined-white-inner-sleeves",
-      "title": "12\" POLYLINED WHITE INNER SLEEVES - 12\" Polylined White Inner Sleeves",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/products/12-white-polylined.jpg?v=1646748245",
-      "units": 30
-    },
-    {
-      "position": 6,
-      "previous_position": null,
+      "previous_position": 6,
       "product_id": "16248250171737",
       "handle": "madonna-confessions-ii",
       "title": "MADONNA - CONFESSIONS II",
       "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/c330690e7fbf22b8c9097c0ee8282416.jpg?v=1776341767",
-      "units": 27
+      "units": 47
     },
     {
-      "position": 7,
-      "previous_position": null,
-      "product_id": "16242649629017",
-      "handle": "megadeth-countdown-to-extinction",
-      "title": "Megadeth - Countdown To Extinction",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/af92a5fb177422d25d7fc8d4aa1603ab.jpg?v=1776159123",
-      "units": 21
-    },
-    {
-      "position": 8,
-      "previous_position": null,
-      "product_id": "7299322937505",
-      "handle": "the-spindizzy-gift-card",
-      "title": "The Spindizzy Gift Card",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/products/20171211_181528_1e14fdf2-3086-4f57-a2da-a2e7f0baab1e.jpg?v=1646992842",
-      "units": 19
-    },
-    {
-      "position": 9,
-      "previous_position": null,
-      "product_id": "16237001081177",
-      "handle": "morrissey-deluxe-notre-dame",
-      "title": "Morrissey - Deluxe Notre-Dame",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/4bc4d59863ff76828b2cad71218183c1.jpg?v=1775878661",
-      "units": 19
-    },
-    {
-      "position": 10,
-      "previous_position": null,
-      "product_id": "16236664914265",
-      "handle": "scustin-the-lock-in",
-      "title": "SCUSTIN - THE LOCK-IN",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/f7394531a43470561a5060c938400647.png?v=1775831747",
-      "units": 15
-    },
-    {
-      "position": 11,
-      "previous_position": null,
-      "product_id": "16242648711513",
-      "handle": "megadeth-youthanasia",
-      "title": "Megadeth - Youthanasia",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/baedbac81cad06b41ee65efc764e490a.jpg?v=1776159103",
-      "units": 14
-    },
-    {
-      "position": 12,
-      "previous_position": null,
-      "product_id": "16238554480985",
-      "handle": "jjerome87-the-canyon-dinked-edition-406",
-      "title": "JJEROME87 - The Canyon - Dinked Edition #406",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/a5010ff46e647287ebfc55921d425f8d.png?v=1776007002",
-      "units": 12
-    },
-    {
-      "position": 13,
-      "previous_position": null,
+      "position": 2,
+      "previous_position": 13,
       "product_id": "16248138301785",
       "handle": "massive-attack-tom-waits-boots-on-the-ground",
       "title": "Massive Attack & Tom Waits - Boots on the Ground",
       "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/b0d25fa145f8323b750e804635c530d4.jpg?v=1776339408",
-      "units": 10
+      "units": 35
     },
     {
-      "position": 14,
-      "previous_position": null,
-      "product_id": "16234762109273",
-      "handle": "angine-de-poitrine-vol-ii",
-      "title": "ANGINE DE POITRINE - Vol.II",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/AngineDePoitrine-VolII-AP2-Packshot.png?v=1775743830",
-      "units": 10
+      "position": 3,
+      "previous_position": 7,
+      "product_id": "16242649629017",
+      "handle": "megadeth-countdown-to-extinction",
+      "title": "Megadeth - Countdown To Extinction",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/af92a5fb177422d25d7fc8d4aa1603ab.jpg?v=1776159123",
+      "units": 25
     },
     {
-      "position": 15,
-      "previous_position": null,
-      "product_id": "16234728391001",
-      "handle": "angine-de-poitrine-vol-i",
+      "position": 4,
+      "previous_position": 11,
+      "product_id": "16242648711513",
+      "handle": "megadeth-youthanasia",
+      "title": "Megadeth - Youthanasia",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/baedbac81cad06b41ee65efc764e490a.jpg?v=1776159103",
+      "units": 17
+    },
+    {
+      "position": 5,
+      "previous_position": 4,
+      "product_id": "16236078727513",
+      "handle": "enter-shikari-lose-your-self",
+      "title": "Enter Shikari - Lose Your Self",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/1275e9ec67ad02ece679e20f5995c955.png?v=1775829175",
+      "units": 16
+    },
+    {
+      "position": 6,
+      "previous_position": 2,
+      "product_id": "16234749460825",
+      "handle": "angine-de-poitrine-vol-i-1",
       "title": "ANGINE DE POITRINE - Vol.I",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/AngineDePoitrine-VolI-AP1-Packshot.png?v=1775743825",
-      "units": 10
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ADP_Vol1_01.jpg?v=1775743825",
+      "units": 15
     },
     {
-      "position": 16,
+      "position": 7,
       "previous_position": null,
-      "product_id": "16205650461017",
-      "handle": "delivery-service-instore-signing-may-3rd-1",
-      "title": "DELIVERY SERVICE - Instore & Signing - May 3rd",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/deliveryserviceposter.jpg?v=1774436657",
+      "product_id": "16249081168217",
+      "handle": "billie-eilish-hit-me-hard-and-soft-the-tour-live",
+      "title": "Billie Eilish - HIT ME HARD AND SOFT: The Tour (Live)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/f171697df02f3fb22be9d2e65ac300d3.png?v=1776355998",
+      "units": 15
+    },
+    {
+      "position": 8,
+      "previous_position": 1,
+      "product_id": "16234766205273",
+      "handle": "angine-de-poitrine-vol-ii-1",
+      "title": "ANGINE DE POITRINE - Vol.II",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ADP_Vol2_01.jpg?v=1775743830",
+      "units": 13
+    },
+    {
+      "position": 9,
+      "previous_position": 12,
+      "product_id": "16238554480985",
+      "handle": "jjerome87-the-canyon-dinked-edition-406",
+      "title": "JJEROME87 - The Canyon - Dinked Edition #406",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/a5010ff46e647287ebfc55921d425f8d.png?v=1776007002",
+      "units": 13
+    },
+    {
+      "position": 10,
+      "previous_position": null,
+      "product_id": "16252638724441",
+      "handle": "audioslave-out-of-exile",
+      "title": "Audioslave - Out Of Exile",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/aad4d90c453ab96dc956d11aad11ee51.jpg?v=1776467695",
       "units": 8
     },
     {
-      "position": 17,
+      "position": 11,
       "previous_position": null,
-      "product_id": "16231552876889",
-      "handle": "sleaford-mods-feat-aldous-harding-elitest-g-o-a-t-the-prodigy-acid-thunder-mix",
-      "title": "SLEAFORD MODS FEAT. ALDOUS HARDING - Elitest G.O.A.T. (The Prodigy Acid Thunder Mix)",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/SLEAFORDMODSFEAT.ALDOUSHARDING-ElitestG.O.A.T._TheProdigyAcidThunderMix_-7-GoldVinyl_JUN26.jpg?v=1775648215",
+      "product_id": "16244600078681",
+      "handle": "down-over-the-under-remaster-2026",
+      "title": "Down - Over The Under [Remaster 2026]",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/b1ade7435d3c6f4d01347980194b5ba4.jpg?v=1776240660",
       "units": 8
     },
     {
-      "position": 18,
-      "previous_position": null,
-      "product_id": "16247922917721",
-      "handle": "ronan-o-snodaigh-myles-oreilly-instore-may-1st",
-      "title": "R\u00d3N\u00c1N \u00d3 SNODAIGH & MYLES O'REILLY - Instore - MAY 1st",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/RONANOSNODAIGH_MYLESOREILLY_1000x1000px.png?v=1776338786",
-      "units": 7
-    },
-    {
-      "position": 19,
-      "previous_position": null,
-      "product_id": "16245652619609",
-      "handle": "kurt-vile-philadelphias-been-good-to-me",
-      "title": "Kurt Vile - Philadelphia's been good to me",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ab272edb075de584f4205c91c5a5c574.jpg?v=1776275891",
-      "units": 6
-    },
-    {
-      "position": 20,
-      "previous_position": null,
+      "position": 12,
+      "previous_position": 20,
       "product_id": "16244975239513",
       "handle": "oliver-darley-chad-lelong-the-seat-with-the-clearest-view-the-songs-of-david-bowie-re-imagined",
       "title": "OLIVER DARLEY & CHAD LELONG - The Seat With The Clearest View (The Songs Of David Bowie Re-Imagined)",
       "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/292b11afe09249164b1a6289b15fa41c.jpg?v=1776255807",
-      "units": 6
+      "units": 8
     },
     {
-      "position": 21,
-      "previous_position": null,
+      "position": 13,
+      "previous_position": 21,
       "product_id": "16237753172313",
       "handle": "delivery-service-five-songs",
       "title": "DELIVERY SERVICE - five songs",
       "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/901c4a4834bfa11de23a8dfcbc8b88e6.jpg?v=1775927454",
-      "units": 5
+      "units": 8
     },
     {
-      "position": 22,
+      "position": 14,
+      "previous_position": 29,
+      "product_id": "16248004739417",
+      "handle": "makeshift-art-bar-marionette-ep",
+      "title": "Makeshift Art Bar - Marionette EP",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/5b35830d2c8d82b23a8524d402715d82.jpg?v=1776335418",
+      "units": 8
+    },
+    {
+      "position": 15,
+      "previous_position": 19,
+      "product_id": "16245652619609",
+      "handle": "kurt-vile-philadelphias-been-good-to-me",
+      "title": "Kurt Vile - Philadelphia's been good to me",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ab272edb075de584f4205c91c5a5c574.jpg?v=1776275891",
+      "units": 7
+    },
+    {
+      "position": 16,
       "previous_position": null,
+      "product_id": "16107554865497",
+      "handle": "bruce-springsteen-see-hear-now-asbury-park-2024-boxset-5lp-record-store-day-2026",
+      "title": "BRUCE SPRINGSTEEN - See.Hear.Now Asbury Park 2024 - Boxset - 5LP [Record Store Day 2026]",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/BruceSpringsteen-SeeHearNowAsburyPark2024-1.jpg?v=1770868479",
+      "units": 7
+    },
+    {
+      "position": 17,
+      "previous_position": 22,
       "product_id": "16243438780761",
       "handle": "tony-st-ledger-man-on-a-bridge",
       "title": "TONY ST LEDGER - Man On A Bridge",
       "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/4254ea0bc646e361f600928d4fde7b54.png?v=1776180613",
+      "units": 6
+    },
+    {
+      "position": 18,
+      "previous_position": null,
+      "product_id": "16245345223001",
+      "handle": "the-rezillos-psycho-tornado",
+      "title": "The Rezillos - Psycho Tornado",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/62c5f9ff68d905f1093a14b1678cfc66.jpg?v=1776270546",
       "units": 5
     },
     {
-      "position": 23,
-      "previous_position": null,
-      "product_id": "16078754480473",
-      "handle": "joshua-burnside-its-not-going-to-be-okay-lp-sea-blue-coloured-vinyl",
-      "title": "JOSHUA BURNSIDE - It's Not Going To Be Okay - LP - 'Sea Blue' Coloured Vinyl [APR 10]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Joshua_Burnside_-_It_s_Not_Going_To_Be_Okay_-_LP_Sea_Blue_Coloured_Vinyl_-_2026.jpg?v=1769682688",
+      "position": 19,
+      "previous_position": 30,
+      "product_id": "16244076511577",
+      "handle": "cinderella-heartbreak-station",
+      "title": "Cinderella - Heartbreak Station",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/01ac95481ebc4eaae5e5788fe6cfd6db.png?v=1776224464",
       "units": 5
     },
     {
-      "position": 24,
+      "position": 20,
       "previous_position": null,
+      "product_id": "16247739875673",
+      "handle": "picking-petals",
+      "title": "Picking Petals",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/8a1462a4608bbd27fa0982b06e23ade4.png?v=1776330028",
+      "units": 5
+    },
+    {
+      "position": 21,
+      "previous_position": 24,
       "product_id": "16239931359577",
       "handle": "nothing-nowhere-dark-magic",
       "title": "Nothing, Nowhere - Dark Magic",
@@ -220,8 +193,8 @@
       "units": 5
     },
     {
-      "position": 25,
-      "previous_position": null,
+      "position": 22,
+      "previous_position": 25,
       "product_id": "16240479011161",
       "handle": "electric-light-orchestra-discovery",
       "title": "ELECTRIC LIGHT ORCHESTRA - Discovery",
@@ -229,48 +202,75 @@
       "units": 5
     },
     {
+      "position": 23,
+      "previous_position": null,
+      "product_id": "16245155365209",
+      "handle": "adventura-majestica-25th-anniversary-remastered-edition",
+      "title": "Adventura Majestica (25th Anniversary Remastered Edition)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ce8c0e170e53a41f56893ec442a2f9ec.png?v=1776262063",
+      "units": 4
+    },
+    {
+      "position": 24,
+      "previous_position": null,
+      "product_id": "16252189442393",
+      "handle": "john-coltrane-ascension-edition-i-ii-verve-vault",
+      "title": "John Coltrane - Ascension (Edition I & II) (Verve Vault)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/e88f42c6ad29f076f8ad5cfaa4cbf9a0.jpg?v=1776442584",
+      "units": 4
+    },
+    {
+      "position": 25,
+      "previous_position": null,
+      "product_id": "16251329282393",
+      "handle": "the-wannadies-be-a-girl",
+      "title": "The Wannadies - Be A Girl",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/c606155f5938cc91ffe28596c204bfec.png?v=1776415790",
+      "units": 4
+    },
+    {
       "position": 26,
       "previous_position": null,
-      "product_id": "16235051549017",
-      "handle": "mono-snowdrop-2lp-indies-only-boysenberry-vinyl-jun-12",
-      "title": "MONO - Snowdrop - 2LP - Indies Only \"Boysenberry\" Vinyl [JUN 12]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/MONO-Snowdrop-2LP-IndiesOnlyBoysenberryVinyl_JUN12_db51abad-940f-4007-bf60-89ab07b36a9c.jpg?v=1775750034",
-      "units": 5
+      "product_id": "16107574690137",
+      "handle": "thin-lizzy-live-in-cleveland-1976-2lp-140g-transparent-vinyl-record-store-day-2026",
+      "title": "THIN LIZZY - Live in Cleveland 1976 - 2LP - 140g Transparent Vinyl [Record Store Day 2026]",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ThinLizzy-LiveInCleveland1976-2.jpg?v=1770869451",
+      "units": 4
     },
     {
       "position": 27,
       "previous_position": null,
-      "product_id": "16235095195993",
-      "handle": "the-cramps-stay-sick-2026-reissue",
-      "title": "THE CRAMPS - Stay Sick (2026 Reissue)",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/THECRAMPS-StaySick_2026Reissue_-LP-ClearwithHiBlackMeltVinyl_APR24.jpg?v=1775751971",
-      "units": 5
+      "product_id": "16107560894809",
+      "handle": "ian-brown-music-of-the-spheres-special-25th-anniversary-edition-2lp-black-vinyl-record-store-day-2026",
+      "title": "IAN BROWN - Music of the Spheres (Special 25th Anniversary Edition) - 2LP - Black Vinyl [Record Store Day 2026]",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/IanBrown-MusicOfTheSpheresSpecial25Th-1.jpg?v=1770868778",
+      "units": 4
     },
     {
       "position": 28,
       "previous_position": null,
-      "product_id": "16235108925785",
-      "handle": "the-cramps-big-beat-from-badsville-2026-reissue",
-      "title": "THE CRAMPS - Big Beat From Badsville (2026 Reissue)",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/THECRAMPS-BigBeatFromBadsville_2026Reissue_-LP-MetallicRedVinyl_APR24.webp?v=1775752604",
-      "units": 5
+      "product_id": "16151383048537",
+      "handle": "tomora-come-closer-lp-white-vinyl",
+      "title": "TOMORA - Come Closer - LP - White Vinyl",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/f2b5175aefab3348243eb79d226f860d.jpg?v=1776425587",
+      "units": 4
     },
     {
       "position": 29,
       "previous_position": null,
-      "product_id": "16248004739417",
-      "handle": "makeshift-art-bar-marionette-ep",
-      "title": "Makeshift Art Bar - Marionette EP",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/5b35830d2c8d82b23a8524d402715d82.jpg?v=1776335418",
+      "product_id": "16245813641561",
+      "handle": "midge-ure-a-man-of-two-worlds",
+      "title": "MIDGE URE - A Man of Two Worlds",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/446493d501e75fd5256aa52764a0956e.jpg?v=1776278253",
       "units": 4
     },
     {
       "position": 30,
       "previous_position": null,
-      "product_id": "16244076511577",
-      "handle": "cinderella-heartbreak-station",
-      "title": "Cinderella - Heartbreak Station",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/01ac95481ebc4eaae5e5788fe6cfd6db.png?v=1776224464",
+      "product_id": "16242950570329",
+      "handle": "mick-flannery-the-house-must-win",
+      "title": "Mick Flannery - The House Must Win",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/6d1b90f2530c47b9f001cf01d03f817b.png?v=1776167106",
       "units": 4
     }
   ]
