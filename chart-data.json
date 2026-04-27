@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-27T08:56:51.647448+00:00",
-  "week_start": "2026-04-20T08:56:51.647448+00:00",
-  "week_end": "2026-04-27T08:56:51.647448+00:00",
+  "updated": "2026-04-27T09:21:34.979179+00:00",
+  "week_start": "2026-04-20T09:21:34.979179+00:00",
+  "week_end": "2026-04-27T09:21:34.979179+00:00",
   "chart": [
     {
       "position": 1,
-      "previous_position": 2,
+      "previous_position": 1,
       "product_id": "16263242482009",
       "handle": "boards-of-canada-inferno",
       "title": "Boards of Canada - Inferno",
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "previous_position": 1,
+      "previous_position": 2,
       "product_id": "16192484671833",
       "handle": "taylor-swift-elizabeth-taylor-7-cry-my-eyes-violet-glitter-vinyl-record-store-day-2026",
       "title": "TAYLOR SWIFT - Elizabeth Taylor - 7'' - 'Cry My Eyes' Violet Glitter Vinyl [Record Store Day 2026]",
@@ -32,7 +32,7 @@
     },
     {
       "position": 4,
-      "previous_position": 5,
+      "previous_position": 4,
       "product_id": "16107573379417",
       "handle": "the-mary-wallopers-a-mouthful-of-mary-wallopers-10-limited-classic-black-vinyl-record-store-day-2026",
       "title": "THE MARY WALLOPERS - A Mouthful of Mary Wallopers - 10\" - Limited Classic Black vinyl [Record Store Day 2026]",
@@ -41,7 +41,7 @@
     },
     {
       "position": 5,
-      "previous_position": 7,
+      "previous_position": 5,
       "product_id": "16107555783001",
       "handle": "charli-xcx-party-4u-7-crystal-clear-etched-b-side-vinyl-record-store-day-2026",
       "title": "CHARLI XCX - Party 4U - 7\" - Crystal Clear Etched B side Vinyl [Record Store Day 2026]",
@@ -50,7 +50,7 @@
     },
     {
       "position": 6,
-      "previous_position": 8,
+      "previous_position": 6,
       "product_id": "16107570954585",
       "handle": "steely-dan-alive-in-america-2lp-black-vinyl-record-store-day-2026",
       "title": "STEELY DAN - Alive In America - 2LP - Black Vinyl [Record Store Day 2026]",
@@ -59,7 +59,7 @@
     },
     {
       "position": 7,
-      "previous_position": 9,
+      "previous_position": 7,
       "product_id": "16107560894809",
       "handle": "ian-brown-music-of-the-spheres-special-25th-anniversary-edition-2lp-black-vinyl-record-store-day-2026",
       "title": "IAN BROWN - Music of the Spheres (Special 25th Anniversary Edition) - 2LP - Black Vinyl [Record Store Day 2026]",
@@ -68,7 +68,7 @@
     },
     {
       "position": 8,
-      "previous_position": 10,
+      "previous_position": 8,
       "product_id": "16237858128217",
       "handle": "cardinals-cardinals-ep-12-ultra-clear-vinyl-record-store-day-2026",
       "title": "Cardinals - Cardinals EP -12\" - Ultra Clear Vinyl [Record Store Day 2026]",
@@ -77,7 +77,7 @@
     },
     {
       "position": 9,
-      "previous_position": 11,
+      "previous_position": 9,
       "product_id": "16107553587545",
       "handle": "annie-lennox-live-in-central-park-2lp-opaque-red-vinyl-record-store-day-2026",
       "title": "ANNIE LENNOX - Live In Central Park - 2LP - Opaque Red Vinyl [Record Store Day 2026]",
@@ -86,7 +86,7 @@
     },
     {
       "position": 10,
-      "previous_position": 12,
+      "previous_position": 10,
       "product_id": "16107553358169",
       "handle": "alison-goldfrapp-flux-deluxe-record-store-day-2026",
       "title": "ALISON GOLDFRAPP - Flux (Deluxe) [Record Store Day 2026]",
@@ -95,7 +95,7 @@
     },
     {
       "position": 11,
-      "previous_position": 20,
+      "previous_position": 11,
       "product_id": "16237955121497",
       "handle": "rory-gallagher-calling-card-1lp-180g-black-vinyl-record-store-day-2026",
       "title": "RORY GALLAGHER - Calling Card - 1LP - 180g Black Vinyl [Record Store Day 2026]",
@@ -104,7 +104,7 @@
     },
     {
       "position": 12,
-      "previous_position": 13,
+      "previous_position": 12,
       "product_id": "16107575116121",
       "handle": "ultravox-the-re-mixes-2lp-clear-vinyl-record-store-day-2026",
       "title": "ULTRAVOX - The Re-Mixes - 2LP - Clear Vinyl [Record Store Day 2026]",
@@ -113,7 +113,7 @@
     },
     {
       "position": 13,
-      "previous_position": 14,
+      "previous_position": 13,
       "product_id": "16107570790745",
       "handle": "status-quo-live-in-hammersmith-1979-2lp-translucent-red-vinyl-record-store-day-2026",
       "title": "STATUS QUO - Live In Hammersmith 1979 - 2LP - Translucent Red Vinyl [Record Store Day 2026]",
@@ -122,7 +122,7 @@
     },
     {
       "position": 14,
-      "previous_position": null,
+      "previous_position": 14,
       "product_id": "16264349450585",
       "handle": "the-waterboys-atlantic-rain-the-lost-fishermans-blues-recordings",
       "title": "THE WATERBOYS - Atlantic Rain: The Lost Fisherman's Blues Recordings",
@@ -149,7 +149,7 @@
     },
     {
       "position": 17,
-      "previous_position": null,
+      "previous_position": 17,
       "product_id": "16237764706649",
       "handle": "the-jesus-and-mary-chain-some-candy-talking-40th-anniversary-record-store-day-2026",
       "title": "THE JESUS AND MARY CHAIN - Some Candy Talking (40th Anniversary) [Record Store Day 2026]",
@@ -158,7 +158,7 @@
     },
     {
       "position": 18,
-      "previous_position": 21,
+      "previous_position": 18,
       "product_id": "16107574722905",
       "handle": "third-eye-blind-rarities-first-drafts-1lp-limited-edition-translucent-emerald-vinyl-record-store-day-2026",
       "title": "THIRD EYE BLIND - Rarities & First Drafts - 1LP - Limited Edition Translucent Emerald Vinyl [Record Store Day 2026]",
@@ -167,7 +167,7 @@
     },
     {
       "position": 19,
-      "previous_position": 25,
+      "previous_position": 19,
       "product_id": "16107577016665",
       "handle": "xtc-live-boots-2lp-record-store-day-2026-live-at-emerald-city-1981-2lp-200g-black-audiophile-vinyl-record-store-day-2026",
       "title": "XTC - LIVE BOOTS  2LP [Record Store Day 2026] - Live at Emerald City 1981 - 2LP - 200g Black Audiophile Vinyl [Record Store Day 2026]",
@@ -176,7 +176,7 @@
     },
     {
       "position": 20,
-      "previous_position": 18,
+      "previous_position": 20,
       "product_id": "16107567776089",
       "handle": "perrie-fan-edition-12-limited-edition-ice-blue-marble-vinyl-record-store-day-2026",
       "title": "PERRIE - Fan Edition - 12\" - Limited Edition Ice Blue Marble Vinyl [Record Store Day 2026]",
@@ -185,7 +185,7 @@
     },
     {
       "position": 21,
-      "previous_position": 17,
+      "previous_position": 21,
       "product_id": "16107567808857",
       "handle": "peter-gabriel-sledgehammer-12-zoetrope-vinyl-record-store-day-2026",
       "title": "PETER GABRIEL - Sledgehammer - 12\" - Zoetrope Vinyl [Record Store Day 2026]",
@@ -194,7 +194,7 @@
     },
     {
       "position": 22,
-      "previous_position": 19,
+      "previous_position": 22,
       "product_id": "16107560698201",
       "handle": "horslips-tell-em-about-it-johnny-live-at-winterland-1978-1lp-180g-crystal-clear-vinyl-record-store-day-2026",
       "title": "HORSLIPS - Tell 'Em About It Johnny - Live At Winterland 1978 - 1LP - 180g Crystal Clear Vinyl [Record Store Day 2026]",
@@ -203,7 +203,7 @@
     },
     {
       "position": 23,
-      "previous_position": 22,
+      "previous_position": 23,
       "product_id": "16107558469977",
       "handle": "faithless-to-all-new-arrivals-2lp-transparent-yellow-vinyl-record-store-day-2026",
       "title": "FAITHLESS - To All New Arrivals - 2LP - Transparent Yellow Vinyl [Record Store Day 2026]",
@@ -212,7 +212,7 @@
     },
     {
       "position": 24,
-      "previous_position": 23,
+      "previous_position": 24,
       "product_id": "16107568005465",
       "handle": "pinkpantheress-girl-like-me-7-red-vinyl-record-store-day-2026",
       "title": "PINKPANTHERESS - Girl Like Me - 7\" - Red Vinyl [Record Store Day 2026]",
@@ -221,7 +221,7 @@
     },
     {
       "position": 25,
-      "previous_position": 27,
+      "previous_position": 25,
       "product_id": "16107572494681",
       "handle": "the-cure-acoustic-hits-25th-anniversary-edition-2lp-silver-bio-vinyl-record-store-day-2026",
       "title": "THE CURE - Acoustic Hits (25th Anniversary Edition) - 2LP - Silver Bio Vinyl [Record Store Day 2026]",
@@ -239,7 +239,7 @@
     },
     {
       "position": 27,
-      "previous_position": null,
+      "previous_position": 27,
       "product_id": "16107560337753",
       "handle": "haim-relationships-12-clear-vinyl-record-store-day-2026",
       "title": "HAIM - Relationships - 12\" - Clear Vinyl [Record Store Day 2026]",
@@ -248,7 +248,7 @@
     },
     {
       "position": 28,
-      "previous_position": null,
+      "previous_position": 28,
       "product_id": "16107564237145",
       "handle": "madonna-the-confessions-tour-live-2lp-pink-purple-splatter-vinyl-record-store-day-2026",
       "title": "MADONNA - The Confessions Tour Live - 2LP - Pink & Purple Splatter Vinyl [Record Store Day 2026]",
@@ -257,7 +257,7 @@
     },
     {
       "position": 29,
-      "previous_position": null,
+      "previous_position": 29,
       "product_id": "16107567087961",
       "handle": "olivia-dean-live-at-the-bbc-7-limited-edition-black-vinyl-record-store-day-2026",
       "title": "OLIVIA DEAN - Live At The BBC - 7\" - Limited Edition Black Vinyl [Record Store Day 2026]",
@@ -266,7 +266,7 @@
     },
     {
       "position": 30,
-      "previous_position": null,
+      "previous_position": 30,
       "product_id": "16107573018969",
       "handle": "the-house-of-love-live-at-ulu-7-october-1988-1lp-black-vinyl-record-store-day-2026",
       "title": "THE HOUSE OF LOVE - Live At ULU (7 October 1988) - 1LP - Black Vinyl [Record Store Day 2026]",
