@@ -1,277 +1,277 @@
 {
-  "updated": "2026-04-27T10:16:47.727591+00:00",
-  "week_start": "2026-04-20T10:16:47.727591+00:00",
-  "week_end": "2026-04-27T10:16:47.727591+00:00",
+  "updated": "2026-04-30T23:18:55.173643+00:00",
+  "week_start": "2026-04-23T23:18:55.173643+00:00",
+  "week_end": "2026-04-30T23:18:55.173643+00:00",
   "chart": [
     {
       "position": 1,
-      "previous_position": 1,
-      "product_id": "16263242482009",
-      "handle": "boards-of-canada-inferno",
-      "title": "Boards of Canada - Inferno",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/84815ede607e1772f591e748ce7c11af.jpg?v=1776867965",
-      "units": 124
+      "previous_position": null,
+      "product_id": "16273889263961",
+      "handle": "fenian-white-label-pressing",
+      "title": "Fenian (White Label Pressing)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/5791c8446b1576ee84993d6e96f847dd.png?v=1777320164",
+      "units": 24
     },
     {
       "position": 2,
-      "previous_position": 2,
-      "product_id": "16192484671833",
-      "handle": "taylor-swift-elizabeth-taylor-7-cry-my-eyes-violet-glitter-vinyl-record-store-day-2026",
-      "title": "TAYLOR SWIFT - Elizabeth Taylor - 7'' - 'Cry My Eyes' Violet Glitter Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Taylor_Swift_-_Elizabeth_Taylor_-_7-inch_Cry_My_Eyes_Violet_Glitter_Vinyl_-_Record_Store_Day_Exclusive_-_2026.jpg?v=1773836677",
-      "units": 109
-    },
-    {
-      "position": 3,
-      "previous_position": 3,
-      "product_id": "16262429507929",
-      "handle": "tricky-different-when-it-s-silent",
-      "title": "TRICKY - Different When It\u2019s Silent",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/0331140036d7fce075368ff7c9c0f30d.png?v=1776855807",
-      "units": 70
-    },
-    {
-      "position": 4,
-      "previous_position": 4,
-      "product_id": "16107573379417",
-      "handle": "the-mary-wallopers-a-mouthful-of-mary-wallopers-10-limited-classic-black-vinyl-record-store-day-2026",
-      "title": "THE MARY WALLOPERS - A Mouthful of Mary Wallopers - 10\" - Limited Classic Black vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/MaryWallopersThe-AMouthfulOfMaryWallopers-1.jpg?v=1770869376",
-      "units": 39
-    },
-    {
-      "position": 5,
-      "previous_position": 5,
-      "product_id": "16107555783001",
-      "handle": "charli-xcx-party-4u-7-crystal-clear-etched-b-side-vinyl-record-store-day-2026",
-      "title": "CHARLI XCX - Party 4U - 7\" - Crystal Clear Etched B side Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/CharliXcx-Party4U-1.jpg?v=1770868531",
-      "units": 36
-    },
-    {
-      "position": 6,
-      "previous_position": 6,
-      "product_id": "16107570954585",
-      "handle": "steely-dan-alive-in-america-2lp-black-vinyl-record-store-day-2026",
-      "title": "STEELY DAN - Alive In America - 2LP - Black Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/SteelyDan-AliveInAmerica-1.jpg?v=1770869257",
-      "units": 33
-    },
-    {
-      "position": 7,
-      "previous_position": 7,
-      "product_id": "16107560894809",
-      "handle": "ian-brown-music-of-the-spheres-special-25th-anniversary-edition-2lp-black-vinyl-record-store-day-2026",
-      "title": "IAN BROWN - Music of the Spheres (Special 25th Anniversary Edition) - 2LP - Black Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/IanBrown-MusicOfTheSpheresSpecial25Th-1.jpg?v=1770868778",
-      "units": 28
-    },
-    {
-      "position": 8,
-      "previous_position": 8,
-      "product_id": "16237858128217",
-      "handle": "cardinals-cardinals-ep-12-ultra-clear-vinyl-record-store-day-2026",
-      "title": "Cardinals - Cardinals EP -12\" - Ultra Clear Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/e185ade5cf8528b0ebccf865011541dd.jpg?v=1776393331",
-      "units": 26
-    },
-    {
-      "position": 9,
-      "previous_position": 9,
-      "product_id": "16107553587545",
-      "handle": "annie-lennox-live-in-central-park-2lp-opaque-red-vinyl-record-store-day-2026",
-      "title": "ANNIE LENNOX - Live In Central Park - 2LP - Opaque Red Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/AnnieLennox-LiveInCentralPark-1.jpg?v=1770868414",
-      "units": 26
-    },
-    {
-      "position": 10,
-      "previous_position": 10,
-      "product_id": "16107553358169",
-      "handle": "alison-goldfrapp-flux-deluxe-record-store-day-2026",
-      "title": "ALISON GOLDFRAPP - Flux (Deluxe) [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/AlisonGoldfrapp-FluxDeluxe-1.jpg?v=1770868408",
-      "units": 26
-    },
-    {
-      "position": 11,
-      "previous_position": 11,
-      "product_id": "16237955121497",
-      "handle": "rory-gallagher-calling-card-1lp-180g-black-vinyl-record-store-day-2026",
-      "title": "RORY GALLAGHER - Calling Card - 1LP - 180g Black Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/d2ebb8b853b42eb9b576ce465035488b.jpg?v=1776394828",
-      "units": 20
-    },
-    {
-      "position": 12,
-      "previous_position": 12,
-      "product_id": "16107575116121",
-      "handle": "ultravox-the-re-mixes-2lp-clear-vinyl-record-store-day-2026",
-      "title": "ULTRAVOX - The Re-Mixes - 2LP - Clear Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Ultravox-TheReMixes-1.jpg?v=1770869476",
-      "units": 20
-    },
-    {
-      "position": 13,
-      "previous_position": 13,
-      "product_id": "16107570790745",
-      "handle": "status-quo-live-in-hammersmith-1979-2lp-translucent-red-vinyl-record-store-day-2026",
-      "title": "STATUS QUO - Live In Hammersmith 1979 - 2LP - Translucent Red Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/StatusQuo-LiveInHammersmith1979-1.jpg?v=1770869250",
-      "units": 20
-    },
-    {
-      "position": 14,
       "previous_position": 14,
       "product_id": "16264349450585",
       "handle": "the-waterboys-atlantic-rain-the-lost-fishermans-blues-recordings",
       "title": "THE WATERBOYS - Atlantic Rain: The Lost Fisherman's Blues Recordings",
       "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/786a5c3156fee6dc4cb2493f7ba73e75.jpg?v=1776934869",
-      "units": 19
+      "units": 21
+    },
+    {
+      "position": 3,
+      "previous_position": 1,
+      "product_id": "16263242482009",
+      "handle": "boards-of-canada-inferno",
+      "title": "Boards of Canada - Inferno",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/84815ede607e1772f591e748ce7c11af.jpg?v=1776867965",
+      "units": 18
+    },
+    {
+      "position": 4,
+      "previous_position": null,
+      "product_id": "16276291289433",
+      "handle": "reload-remastered",
+      "title": "ReLoad (Remastered)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/040713127c0321c08b950e547cecc47b.png?v=1777384891",
+      "units": 16
+    },
+    {
+      "position": 5,
+      "previous_position": null,
+      "product_id": "16273663230297",
+      "handle": "ryan-adams-the-suicide-handbook",
+      "title": "Ryan Adams - The Suicide Handbook",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/4145ada4686d6c9bc6e920787b9d6198.jpg?v=1777307864",
+      "units": 16
+    },
+    {
+      "position": 6,
+      "previous_position": null,
+      "product_id": "16279319183705",
+      "handle": "1000-rabbits-are-we-friends-yet",
+      "title": "1000 RABBITS - Are we friends yet?",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/3ab9295ac31604ca14296221b94f55d5.png?v=1777543439",
+      "units": 11
+    },
+    {
+      "position": 7,
+      "previous_position": null,
+      "product_id": "16276475576665",
+      "handle": "bon-iver-for-emma-forever-ago-revinyl-edition",
+      "title": "BON IVER - For Emma, Forever Ago (ReVINYL Edition)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/d4245af64e8623b9ff709ad83da0eeb7.png?v=1777393689",
+      "units": 9
+    },
+    {
+      "position": 8,
+      "previous_position": null,
+      "product_id": "16234766205273",
+      "handle": "angine-de-poitrine-vol-ii-1",
+      "title": "ANGINE DE POITRINE - Vol.II",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/AngineDePoitrine-VolII-AP2-Packshot.png?v=1775743830",
+      "units": 7
+    },
+    {
+      "position": 9,
+      "previous_position": null,
+      "product_id": "16076041421145",
+      "handle": "kneecap-fenian-lp-tri-colour-red-black-red-vinyl",
+      "title": "KNEECAP - FENIAN - LP - Tri Colour (Red, Black, Red) Vinyl",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Kneecap_-_Fenian_-_CD_-_2026_e73aea79-a7a4-4ec9-8d46-4cac532d1c55.jpg?v=1777583999",
+      "units": 7
+    },
+    {
+      "position": 10,
+      "previous_position": null,
+      "product_id": "16248250171737",
+      "handle": "madonna-confessions-ii",
+      "title": "MADONNA - CONFESSIONS II",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/c330690e7fbf22b8c9097c0ee8282416.jpg?v=1776341767",
+      "units": 7
+    },
+    {
+      "position": 11,
+      "previous_position": null,
+      "product_id": "16276481212761",
+      "handle": "dinosaur-jr-youre-living-all-over-me-revinyl-edition",
+      "title": "DINOSAUR JR. - You're Living All Over Me (ReVINYL Edition)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/a67355a11bda0ee17a9850716e943197.png?v=1777394456",
+      "units": 7
+    },
+    {
+      "position": 12,
+      "previous_position": 11,
+      "product_id": "16237955121497",
+      "handle": "rory-gallagher-calling-card-1lp-180g-black-vinyl-record-store-day-2026",
+      "title": "RORY GALLAGHER - Calling Card - 1LP - 180g Black Vinyl [Record Store Day 2026]",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/d2ebb8b853b42eb9b576ce465035488b.jpg?v=1776394828",
+      "units": 6
+    },
+    {
+      "position": 13,
+      "previous_position": 4,
+      "product_id": "16107573379417",
+      "handle": "the-mary-wallopers-a-mouthful-of-mary-wallopers-10-limited-classic-black-vinyl-record-store-day-2026",
+      "title": "THE MARY WALLOPERS - A Mouthful of Mary Wallopers - 10\" - Limited Classic Black vinyl [Record Store Day 2026]",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/MaryWallopersThe-AMouthfulOfMaryWallopers-1.jpg?v=1770869376",
+      "units": 5
+    },
+    {
+      "position": 14,
+      "previous_position": null,
+      "product_id": "16234749460825",
+      "handle": "angine-de-poitrine-vol-i-1",
+      "title": "ANGINE DE POITRINE - Vol.I",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/AngineDePoitrine-VolI-AP1-Packshot.png?v=1775743825",
+      "units": 5
     },
     {
       "position": 15,
-      "previous_position": 15,
-      "product_id": "16107556831577",
-      "handle": "david-bowie-hallo-spaceboy-12-neon-pink-vinyl-record-store-day-2026",
-      "title": "DAVID BOWIE - Hallo Spaceboy - 12\" - Neon Pink Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/DavidBowie-HalloSpaceboy-1.jpg?v=1770868588",
-      "units": 19
+      "previous_position": null,
+      "product_id": "16131601367385",
+      "handle": "paul-weller-weller-at-the-bbc-vol-2-3lp-recycled-black-vinyl-set",
+      "title": "PAUL WELLER - Weller At The BBC (Vol.2) - 3LP - Recycled Black Vinyl Set",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Paul_Weller_-_Live_At_The_BBC_Vol_2_-_3CD_Set_-_2026_e5710469-f133-4d98-b313-856d242bf240.jpg?v=1777582118",
+      "units": 5
     },
     {
       "position": 16,
-      "previous_position": 16,
-      "product_id": "16107571183961",
-      "handle": "suede-coming-up-at-the-bbc-1lp-hot-pink-vinyl-record-store-day-2026",
-      "title": "SUEDE - Coming Up at the BBC - 1LP - Hot Pink Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Suede-ComingUpAtTheBBC-1.jpg?v=1770869275",
-      "units": 19
+      "previous_position": null,
+      "product_id": "16267100619097",
+      "handle": "danzig-i-2026-reissue",
+      "title": "DANZIG - I (2026 Reissue)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/c04930e864dd510b94aea459f87e2fea.jpg?v=1777043808",
+      "units": 5
     },
     {
       "position": 17,
+      "previous_position": null,
+      "product_id": "16276412957017",
+      "handle": "malcolm-todd-do-that-again",
+      "title": "MALCOLM TODD - Do That Again",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/428ac4d28a894c5b87f6d73361f1d923.png?v=1777389882",
+      "units": 5
+    },
+    {
+      "position": 18,
+      "previous_position": null,
+      "product_id": "16272077291865",
+      "handle": "geto-boys-we-cant-be-stopped-35th-anniversary-edition",
+      "title": "Geto Boys - We Can't Be Stopped (35th Anniversary Edition)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/979ced8ce779d8f11af8d96481e61430.jpg?v=1777274769",
+      "units": 5
+    },
+    {
+      "position": 19,
+      "previous_position": null,
+      "product_id": "16272077521241",
+      "handle": "scarface-the-diary-2026-reissue",
+      "title": "Scarface - The Diary (2026 Reissue)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/cd0d831f61edda40edafb04c76f7dbb2.jpg?v=1777274829",
+      "units": 5
+    },
+    {
+      "position": 20,
       "previous_position": 17,
       "product_id": "16237764706649",
       "handle": "the-jesus-and-mary-chain-some-candy-talking-40th-anniversary-record-store-day-2026",
       "title": "THE JESUS AND MARY CHAIN - Some Candy Talking (40th Anniversary) [Record Store Day 2026]",
       "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ddb9dc98f857c23dfb5f3f31b34938d9.jpg?v=1775930020",
-      "units": 18
-    },
-    {
-      "position": 18,
-      "previous_position": 18,
-      "product_id": "16107574722905",
-      "handle": "third-eye-blind-rarities-first-drafts-1lp-limited-edition-translucent-emerald-vinyl-record-store-day-2026",
-      "title": "THIRD EYE BLIND - Rarities & First Drafts - 1LP - Limited Edition Translucent Emerald Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/ThirdEyeBlind-RaritiesFirstDrafts-1.jpg?v=1770869454",
-      "units": 18
-    },
-    {
-      "position": 19,
-      "previous_position": 19,
-      "product_id": "16107577016665",
-      "handle": "xtc-live-boots-2lp-record-store-day-2026-live-at-emerald-city-1981-2lp-200g-black-audiophile-vinyl-record-store-day-2026",
-      "title": "XTC - LIVE BOOTS  2LP [Record Store Day 2026] - Live at Emerald City 1981 - 2LP - 200g Black Audiophile Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Xtc-LiveBootsLiveAtEmeraldCity1981-1.jpg?v=1770869576",
-      "units": 17
-    },
-    {
-      "position": 20,
-      "previous_position": 20,
-      "product_id": "16107567776089",
-      "handle": "perrie-fan-edition-12-limited-edition-ice-blue-marble-vinyl-record-store-day-2026",
-      "title": "PERRIE - Fan Edition - 12\" - Limited Edition Ice Blue Marble Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Perrie-FanEdition-1.jpg?v=1770869099",
-      "units": 17
+      "units": 5
     },
     {
       "position": 21,
-      "previous_position": 21,
-      "product_id": "16107567808857",
-      "handle": "peter-gabriel-sledgehammer-12-zoetrope-vinyl-record-store-day-2026",
-      "title": "PETER GABRIEL - Sledgehammer - 12\" - Zoetrope Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/PeterGabriel-Sledgehammer-1.jpg?v=1770869104",
-      "units": 17
+      "previous_position": null,
+      "product_id": "16242649629017",
+      "handle": "megadeth-countdown-to-extinction",
+      "title": "Megadeth - Countdown To Extinction",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/af92a5fb177422d25d7fc8d4aa1603ab.jpg?v=1776159123",
+      "units": 5
     },
     {
       "position": 22,
-      "previous_position": 22,
-      "product_id": "16107560698201",
-      "handle": "horslips-tell-em-about-it-johnny-live-at-winterland-1978-1lp-180g-crystal-clear-vinyl-record-store-day-2026",
-      "title": "HORSLIPS - Tell 'Em About It Johnny - Live At Winterland 1978 - 1LP - 180g Crystal Clear Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Horslips-TellEmAboutItJohnnyLiveAtWinterland1978-1.jpg?v=1770868767",
-      "units": 16
+      "previous_position": null,
+      "product_id": "16266355802457",
+      "handle": "neil-young-the-chrome-hearts-as-time-explodes",
+      "title": "NEIL YOUNG & THE CHROME HEARTS - as time explodes",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/795588d6b9be501d65dcfd1fecc654a4.jpg?v=1777022306",
+      "units": 5
     },
     {
       "position": 23,
-      "previous_position": 23,
-      "product_id": "16107558469977",
-      "handle": "faithless-to-all-new-arrivals-2lp-transparent-yellow-vinyl-record-store-day-2026",
-      "title": "FAITHLESS - To All New Arrivals - 2LP - Transparent Yellow Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Faithless-ToAllNewArrivals-1.jpg?v=1770868667",
-      "units": 16
+      "previous_position": null,
+      "product_id": "16221556736345",
+      "handle": "vegas-vegas-reissue-lp-180g-orange-coloured-vinyl",
+      "title": "VEGAS - Vegas (Reissue) - LP - 180g Orange Coloured Vinyl",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Vegas_-_self_titled_album_-_LP_180g_Orange_ColouredVinyl_-_2026_Music_On_Vinyl_Reissue.jpg?v=1775150142",
+      "units": 4
     },
     {
       "position": 24,
-      "previous_position": 24,
-      "product_id": "16107568005465",
-      "handle": "pinkpantheress-girl-like-me-7-red-vinyl-record-store-day-2026",
-      "title": "PINKPANTHERESS - Girl Like Me - 7\" - Red Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Pinkpantheress-GirlLikeMe-1.jpg?v=1770869112",
-      "units": 16
+      "previous_position": null,
+      "product_id": "16278033563993",
+      "handle": "air-pocket-symphony-2026-reissue",
+      "title": "AIR - Pocket Symphony (2026 Reissue)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/9e188be3e72d969fd0f518abf2653f04.png?v=1777546217",
+      "units": 4
     },
     {
       "position": 25,
-      "previous_position": 25,
-      "product_id": "16107572494681",
-      "handle": "the-cure-acoustic-hits-25th-anniversary-edition-2lp-silver-bio-vinyl-record-store-day-2026",
-      "title": "THE CURE - Acoustic Hits (25th Anniversary Edition) - 2LP - Silver Bio Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/CureThe-AcousticHits25ThAnniversaryEdition-1.jpg?v=1770869335",
-      "units": 15
+      "previous_position": null,
+      "product_id": "16267150066009",
+      "handle": "danzig-ii-lucifuge-2026-reissue",
+      "title": "DANZIG - II - Lucifuge (2026 Reissue)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/20b3d63646df7ea7a775f13171d63238.png?v=1777044516",
+      "units": 4
     },
     {
       "position": 26,
-      "previous_position": 26,
-      "product_id": "16107561517401",
-      "handle": "james-dean-bradfield-the-great-western-1lp-orange-marble-vinyl-record-store-day-2026",
-      "title": "JAMES DEAN BRADFIELD - The Great Western - 1LP - Orange Marble Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/JamesDeanBradfield-TheGreatWestern-1.jpg?v=1770868803",
-      "units": 14
+      "previous_position": null,
+      "product_id": "16266356687193",
+      "handle": "magnum-on-a-storyteller-s-night",
+      "title": "MAGNUM - ON A STORYTELLER\u2019S NIGHT",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/063473dbba0d23caca65f394b87866bf.png?v=1777022387",
+      "units": 4
     },
     {
       "position": 27,
-      "previous_position": 27,
-      "product_id": "16107560337753",
-      "handle": "haim-relationships-12-clear-vinyl-record-store-day-2026",
-      "title": "HAIM - Relationships - 12\" - Clear Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Haim-Relationships-1.jpg?v=1770868749",
-      "units": 14
+      "previous_position": null,
+      "product_id": "16249033326937",
+      "handle": "electric-wizard-come-my-fanatics-2026-press",
+      "title": "ELECTRIC WIZARD - Come My Fanatics (2026 Press)",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/80c0cb7e7e89398b48c0997350b09076_911aa39d-39dc-4f59-b55d-90ff625efbf3.jpg?v=1776354379",
+      "units": 4
     },
     {
       "position": 28,
-      "previous_position": 28,
-      "product_id": "16107564237145",
-      "handle": "madonna-the-confessions-tour-live-2lp-pink-purple-splatter-vinyl-record-store-day-2026",
-      "title": "MADONNA - The Confessions Tour Live - 2LP - Pink & Purple Splatter Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Madonna-TheConfessionsTourLive-1.jpg?v=1770868955",
-      "units": 14
+      "previous_position": null,
+      "product_id": "16107568038233",
+      "handle": "pixies-live-in-newport-2lp-green-yellow-vinyl-record-store-day-2026",
+      "title": "PIXIES - Live In Newport - 2LP - Green & Yellow Vinyl [Record Store Day 2026]",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/Pixies-LiveInNewport-1.jpg?v=1770869114",
+      "units": 4
     },
     {
       "position": 29,
-      "previous_position": 29,
-      "product_id": "16107567087961",
-      "handle": "olivia-dean-live-at-the-bbc-7-limited-edition-black-vinyl-record-store-day-2026",
-      "title": "OLIVIA DEAN - Live At The BBC - 7\" - Limited Edition Black Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/OliviaDean-LiveAtTheBBC-1.jpg?v=1770869064",
-      "units": 14
+      "previous_position": null,
+      "product_id": "16242648711513",
+      "handle": "megadeth-youthanasia",
+      "title": "Megadeth - Youthanasia",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/baedbac81cad06b41ee65efc764e490a.jpg?v=1776159103",
+      "units": 4
     },
     {
       "position": 30,
-      "previous_position": 30,
-      "product_id": "16107573018969",
-      "handle": "the-house-of-love-live-at-ulu-7-october-1988-1lp-black-vinyl-record-store-day-2026",
-      "title": "THE HOUSE OF LOVE - Live At ULU (7 October 1988) - 1LP - Black Vinyl [Record Store Day 2026]",
-      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/HouseOfLoveThe-LiveAtUlu7October1988-1.jpg?v=1770869358",
-      "units": 13
+      "previous_position": null,
+      "product_id": "16265402581337",
+      "handle": "1000-homo-djs-supernaut",
+      "title": "1000 Homo Dj'S - Supernaut",
+      "image": "https://cdn.shopify.com/s/files/1/0588/3455/0945/files/8c8c65727d5280d8b134b460891acb5b.png?v=1776965907",
+      "units": 4
     }
   ]
 }
