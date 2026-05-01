@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-30T23:18:55.173643+00:00",
-  "week_start": "2026-04-23T23:18:55.173643+00:00",
-  "week_end": "2026-04-30T23:18:55.173643+00:00",
+  "updated": "2026-05-01T00:53:08.018071+00:00",
+  "week_start": "2026-04-24T00:53:08.018071+00:00",
+  "week_end": "2026-05-01T00:53:08.018071+00:00",
   "chart": [
     {
       "position": 1,
-      "previous_position": null,
+      "previous_position": 1,
       "product_id": "16273889263961",
       "handle": "fenian-white-label-pressing",
       "title": "Fenian (White Label Pressing)",
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "previous_position": 14,
+      "previous_position": 2,
       "product_id": "16264349450585",
       "handle": "the-waterboys-atlantic-rain-the-lost-fishermans-blues-recordings",
       "title": "THE WATERBOYS - Atlantic Rain: The Lost Fisherman's Blues Recordings",
@@ -23,7 +23,7 @@
     },
     {
       "position": 3,
-      "previous_position": 1,
+      "previous_position": 3,
       "product_id": "16263242482009",
       "handle": "boards-of-canada-inferno",
       "title": "Boards of Canada - Inferno",
@@ -32,7 +32,7 @@
     },
     {
       "position": 4,
-      "previous_position": null,
+      "previous_position": 4,
       "product_id": "16276291289433",
       "handle": "reload-remastered",
       "title": "ReLoad (Remastered)",
@@ -41,7 +41,7 @@
     },
     {
       "position": 5,
-      "previous_position": null,
+      "previous_position": 5,
       "product_id": "16273663230297",
       "handle": "ryan-adams-the-suicide-handbook",
       "title": "Ryan Adams - The Suicide Handbook",
@@ -50,7 +50,7 @@
     },
     {
       "position": 6,
-      "previous_position": null,
+      "previous_position": 6,
       "product_id": "16279319183705",
       "handle": "1000-rabbits-are-we-friends-yet",
       "title": "1000 RABBITS - Are we friends yet?",
@@ -59,7 +59,7 @@
     },
     {
       "position": 7,
-      "previous_position": null,
+      "previous_position": 7,
       "product_id": "16276475576665",
       "handle": "bon-iver-for-emma-forever-ago-revinyl-edition",
       "title": "BON IVER - For Emma, Forever Ago (ReVINYL Edition)",
@@ -68,7 +68,7 @@
     },
     {
       "position": 8,
-      "previous_position": null,
+      "previous_position": 8,
       "product_id": "16234766205273",
       "handle": "angine-de-poitrine-vol-ii-1",
       "title": "ANGINE DE POITRINE - Vol.II",
@@ -77,7 +77,7 @@
     },
     {
       "position": 9,
-      "previous_position": null,
+      "previous_position": 9,
       "product_id": "16076041421145",
       "handle": "kneecap-fenian-lp-tri-colour-red-black-red-vinyl",
       "title": "KNEECAP - FENIAN - LP - Tri Colour (Red, Black, Red) Vinyl",
@@ -86,7 +86,7 @@
     },
     {
       "position": 10,
-      "previous_position": null,
+      "previous_position": 10,
       "product_id": "16248250171737",
       "handle": "madonna-confessions-ii",
       "title": "MADONNA - CONFESSIONS II",
@@ -95,7 +95,7 @@
     },
     {
       "position": 11,
-      "previous_position": null,
+      "previous_position": 11,
       "product_id": "16276481212761",
       "handle": "dinosaur-jr-youre-living-all-over-me-revinyl-edition",
       "title": "DINOSAUR JR. - You're Living All Over Me (ReVINYL Edition)",
@@ -104,7 +104,7 @@
     },
     {
       "position": 12,
-      "previous_position": 11,
+      "previous_position": 12,
       "product_id": "16237955121497",
       "handle": "rory-gallagher-calling-card-1lp-180g-black-vinyl-record-store-day-2026",
       "title": "RORY GALLAGHER - Calling Card - 1LP - 180g Black Vinyl [Record Store Day 2026]",
@@ -113,7 +113,7 @@
     },
     {
       "position": 13,
-      "previous_position": 4,
+      "previous_position": 13,
       "product_id": "16107573379417",
       "handle": "the-mary-wallopers-a-mouthful-of-mary-wallopers-10-limited-classic-black-vinyl-record-store-day-2026",
       "title": "THE MARY WALLOPERS - A Mouthful of Mary Wallopers - 10\" - Limited Classic Black vinyl [Record Store Day 2026]",
@@ -122,7 +122,7 @@
     },
     {
       "position": 14,
-      "previous_position": null,
+      "previous_position": 14,
       "product_id": "16234749460825",
       "handle": "angine-de-poitrine-vol-i-1",
       "title": "ANGINE DE POITRINE - Vol.I",
@@ -131,7 +131,7 @@
     },
     {
       "position": 15,
-      "previous_position": null,
+      "previous_position": 15,
       "product_id": "16131601367385",
       "handle": "paul-weller-weller-at-the-bbc-vol-2-3lp-recycled-black-vinyl-set",
       "title": "PAUL WELLER - Weller At The BBC (Vol.2) - 3LP - Recycled Black Vinyl Set",
@@ -140,7 +140,7 @@
     },
     {
       "position": 16,
-      "previous_position": null,
+      "previous_position": 16,
       "product_id": "16267100619097",
       "handle": "danzig-i-2026-reissue",
       "title": "DANZIG - I (2026 Reissue)",
@@ -149,7 +149,7 @@
     },
     {
       "position": 17,
-      "previous_position": null,
+      "previous_position": 17,
       "product_id": "16276412957017",
       "handle": "malcolm-todd-do-that-again",
       "title": "MALCOLM TODD - Do That Again",
@@ -158,7 +158,7 @@
     },
     {
       "position": 18,
-      "previous_position": null,
+      "previous_position": 18,
       "product_id": "16272077291865",
       "handle": "geto-boys-we-cant-be-stopped-35th-anniversary-edition",
       "title": "Geto Boys - We Can't Be Stopped (35th Anniversary Edition)",
@@ -167,7 +167,7 @@
     },
     {
       "position": 19,
-      "previous_position": null,
+      "previous_position": 19,
       "product_id": "16272077521241",
       "handle": "scarface-the-diary-2026-reissue",
       "title": "Scarface - The Diary (2026 Reissue)",
@@ -176,7 +176,7 @@
     },
     {
       "position": 20,
-      "previous_position": 17,
+      "previous_position": 20,
       "product_id": "16237764706649",
       "handle": "the-jesus-and-mary-chain-some-candy-talking-40th-anniversary-record-store-day-2026",
       "title": "THE JESUS AND MARY CHAIN - Some Candy Talking (40th Anniversary) [Record Store Day 2026]",
@@ -185,7 +185,7 @@
     },
     {
       "position": 21,
-      "previous_position": null,
+      "previous_position": 21,
       "product_id": "16242649629017",
       "handle": "megadeth-countdown-to-extinction",
       "title": "Megadeth - Countdown To Extinction",
@@ -194,7 +194,7 @@
     },
     {
       "position": 22,
-      "previous_position": null,
+      "previous_position": 22,
       "product_id": "16266355802457",
       "handle": "neil-young-the-chrome-hearts-as-time-explodes",
       "title": "NEIL YOUNG & THE CHROME HEARTS - as time explodes",
@@ -203,7 +203,7 @@
     },
     {
       "position": 23,
-      "previous_position": null,
+      "previous_position": 23,
       "product_id": "16221556736345",
       "handle": "vegas-vegas-reissue-lp-180g-orange-coloured-vinyl",
       "title": "VEGAS - Vegas (Reissue) - LP - 180g Orange Coloured Vinyl",
@@ -212,7 +212,7 @@
     },
     {
       "position": 24,
-      "previous_position": null,
+      "previous_position": 24,
       "product_id": "16278033563993",
       "handle": "air-pocket-symphony-2026-reissue",
       "title": "AIR - Pocket Symphony (2026 Reissue)",
@@ -221,7 +221,7 @@
     },
     {
       "position": 25,
-      "previous_position": null,
+      "previous_position": 25,
       "product_id": "16267150066009",
       "handle": "danzig-ii-lucifuge-2026-reissue",
       "title": "DANZIG - II - Lucifuge (2026 Reissue)",
@@ -230,7 +230,7 @@
     },
     {
       "position": 26,
-      "previous_position": null,
+      "previous_position": 26,
       "product_id": "16266356687193",
       "handle": "magnum-on-a-storyteller-s-night",
       "title": "MAGNUM - ON A STORYTELLER\u2019S NIGHT",
@@ -239,7 +239,7 @@
     },
     {
       "position": 27,
-      "previous_position": null,
+      "previous_position": 27,
       "product_id": "16249033326937",
       "handle": "electric-wizard-come-my-fanatics-2026-press",
       "title": "ELECTRIC WIZARD - Come My Fanatics (2026 Press)",
@@ -248,7 +248,7 @@
     },
     {
       "position": 28,
-      "previous_position": null,
+      "previous_position": 28,
       "product_id": "16107568038233",
       "handle": "pixies-live-in-newport-2lp-green-yellow-vinyl-record-store-day-2026",
       "title": "PIXIES - Live In Newport - 2LP - Green & Yellow Vinyl [Record Store Day 2026]",
@@ -257,7 +257,7 @@
     },
     {
       "position": 29,
-      "previous_position": null,
+      "previous_position": 29,
       "product_id": "16242648711513",
       "handle": "megadeth-youthanasia",
       "title": "Megadeth - Youthanasia",
@@ -266,7 +266,7 @@
     },
     {
       "position": 30,
-      "previous_position": null,
+      "previous_position": 30,
       "product_id": "16265402581337",
       "handle": "1000-homo-djs-supernaut",
       "title": "1000 Homo Dj'S - Supernaut",
