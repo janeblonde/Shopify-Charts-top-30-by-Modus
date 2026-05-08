@@ -171,6 +171,19 @@ def main() -> None:
 
     print(f"Chart period: {week_start.date()} -> {week_end.date()}")
 
+    # Guard against double-runs from the dual BST/GMT cron schedule.
+    # If the chart was already updated within the last 12 hours, skip.
+    existing = get_current_chart()
+    if existing and existing.get("updated"):
+        try:
+            last_updated = datetime.fromisoformat(existing["updated"])
+            age_hours = (now - last_updated).total_seconds() / 3600
+            if age_hours < 12:
+                print(f"Chart was updated {age_hours:.1f}h ago -- skipping duplicate run.")
+                return
+        except Exception:
+            pass  # If we can't parse the date, proceed anyway
+
     print("Building exclusion list...")
     excluded_ids = get_excluded_product_ids()
     print(f"Excluding {len(excluded_ids)} products from {len(EXCLUDE_COLLECTIONS)} collections")

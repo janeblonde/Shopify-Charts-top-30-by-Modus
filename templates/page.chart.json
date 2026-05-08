@@ -1,9 +1,13 @@
 ﻿{
   "sections": {
+    "page-content": {
+      "type": "main-page",
+      "settings": {}
+    },
     "main": {
       "type": "chart-weekly",
       "settings": {}
     }
   },
-  "order": ["main"]
+  "order": ["page-content", "main"]
 }
