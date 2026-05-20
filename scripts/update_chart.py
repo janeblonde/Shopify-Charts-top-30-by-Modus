@@ -117,9 +117,22 @@ def get_product(product_id: str) -> dict:
         params={"fields": "id,title,handle,images"},
         timeout=15,
     )
-    if r.status_code == 200:
-        return r.json().get("product", {})
-    return {}
+    if r.status_code != 200:
+        return {}
+    product = r.json().get("product", {})
+    # Check for pre-order metafield (theme.preorder)
+    r2 = requests.get(
+        f"{BASE}/products/{product_id}/metafields.json",
+        headers=HEADERS,
+        params={"namespace": "theme", "key": "preorder"},
+        timeout=15,
+    )
+    if r2.status_code == 200:
+        metafields = r2.json().get("metafields", [])
+        product["preorder"] = bool(metafields and metafields[0].get("value"))
+    else:
+        product["preorder"] = False
+    return product
 
 
 def get_current_chart() -> dict | None:
@@ -233,6 +246,7 @@ def main() -> None:
             "title":             product.get("title", ""),
             "image":             image,
             "units":             units,
+            "preorder":          product.get("preorder", False),
         }
         chart_entries.append(entry)
         prev_label = f"(was #{prev_pos})" if prev_pos else "(NEW)"

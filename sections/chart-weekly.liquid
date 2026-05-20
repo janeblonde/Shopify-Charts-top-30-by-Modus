@@ -90,10 +90,11 @@
     letter-spacing: 0.05em;
     white-space: nowrap;
   }
-  .sd-chart__badge--new  { background: #000; color: #fff; }
-  .sd-chart__badge--up   { background: rgba(34,197,94,0.12); color: #16a34a; }
-  .sd-chart__badge--down { background: rgba(239,68,68,0.1);  color: #dc2626; }
-  .sd-chart__badge--same { background: rgba(128,128,128,0.1); color: rgba(128,128,128,0.8); font-size: 14px; }
+  .sd-chart__badge--new     { background: #000; color: #fff; }
+  .sd-chart__badge--up      { background: rgba(34,197,94,0.12); color: #16a34a; }
+  .sd-chart__badge--down    { background: rgba(239,68,68,0.1);  color: #dc2626; }
+  .sd-chart__badge--same    { background: rgba(128,128,128,0.1); color: rgba(128,128,128,0.8); font-size: 14px; }
+  .sd-chart__badge--preorder { background: rgba(139,92,246,0.12); color: #7c3aed; }
   .sd-chart__image {
     width: 72px;
     height: 72px;
@@ -216,7 +217,8 @@
       html += '<li>';
       html += '<a href="/products/' + entry.handle + '" class="sd-chart__entry">';
       html += '<div class="sd-chart__pos' + (isTop3 ? ' sd-chart__pos--top3' : '') + '">' + entry.position + '</div>';
-      html += '<div class="sd-chart__movement">' + badge(entry) + '</div>';
+      var preorderBadge = entry.preorder ? '<span class="sd-chart__badge sd-chart__badge--preorder">Pre-order</span>' : '';
+      html += '<div class="sd-chart__movement">' + badge(entry) + preorderBadge + '</div>';
       html += imgHtml;
       html += '<div class="sd-chart__info">';
       html += '<p class="sd-chart__product-title">' + entry.title.replace(/</g, '&lt;') + '</p>';
