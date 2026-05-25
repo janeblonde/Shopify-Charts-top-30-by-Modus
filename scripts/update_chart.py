@@ -110,6 +110,40 @@ def get_orders(since: datetime, until: datetime) -> list:
     return orders
 
 
+def get_preorder_product_ids() -> set:
+    """Return a set of product IDs that are in the pre-orders collection."""
+    preorders = set()
+    for ctype in ("custom_collections", "smart_collections"):
+        r = requests.get(
+            f"{BASE}/{ctype}.json",
+            headers=HEADERS,
+            params={"handle": "pre-orders", "fields": "id"},
+            timeout=15,
+        )
+        if r.status_code == 200:
+            cols = r.json().get(ctype, [])
+            if cols:
+                collection_id = cols[0]["id"]
+                url = f"{BASE}/collections/{collection_id}/products.json"
+                params = {"limit": 250, "fields": "id"}
+                while url:
+                    r2 = requests.get(url, headers=HEADERS, params=params, timeout=15)
+                    if r2.status_code != 200:
+                        break
+                    for p in r2.json().get("products", []):
+                        preorders.add(str(p["id"]))
+                    url = None
+                    params = {}
+                    for part in r2.headers.get("Link", "").split(","):
+                        part = part.strip()
+                        if 'rel="next"' in part:
+                            url = part.split(";")[0].strip().strip("<>")
+                print(f"  Pre-orders collection: {len(preorders)} products found")
+                return preorders
+    print("  Pre-orders collection not found")
+    return preorders
+
+
 def get_product(product_id: str) -> dict:
     r = requests.get(
         f"{BASE}/products/{product_id}.json",
@@ -119,20 +153,7 @@ def get_product(product_id: str) -> dict:
     )
     if r.status_code != 200:
         return {}
-    product = r.json().get("product", {})
-    # Check for pre-order metafield (theme.preorder)
-    r2 = requests.get(
-        f"{BASE}/products/{product_id}/metafields.json",
-        headers=HEADERS,
-        params={"namespace": "theme", "key": "preorder"},
-        timeout=15,
-    )
-    if r2.status_code == 200:
-        metafields = r2.json().get("metafields", [])
-        product["preorder"] = bool(metafields and metafields[0].get("value"))
-    else:
-        product["preorder"] = False
-    return product
+    return r.json().get("product", {})
 
 
 def get_current_chart() -> dict | None:
@@ -201,6 +222,9 @@ def main() -> None:
     excluded_ids = get_excluded_product_ids()
     print(f"Excluding {len(excluded_ids)} products from {len(EXCLUDE_COLLECTIONS)} collections")
 
+    print("Building pre-order list...")
+    preorder_ids = get_preorder_product_ids()
+
     orders = get_orders(week_start, week_end)
     print(f"Orders found: {len(orders)}")
 
@@ -246,7 +270,7 @@ def main() -> None:
             "title":             product.get("title", ""),
             "image":             image,
             "units":             units,
-            "preorder":          product.get("preorder", False),
+            "preorder":          product_id in preorder_ids,
         }
         chart_entries.append(entry)
         prev_label = f"(was #{prev_pos})" if prev_pos else "(NEW)"
