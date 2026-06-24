@@ -217,12 +217,12 @@
       html += '<li>';
       html += '<a href="/products/' + entry.handle + '" class="sd-chart__entry">';
       html += '<div class="sd-chart__pos' + (isTop3 ? ' sd-chart__pos--top3' : '') + '">' + entry.position + '</div>';
-      var preorderBadge = entry.preorder ? '<span class="sd-chart__badge sd-chart__badge--preorder">Pre-order</span>' : '';
-      html += '<div class="sd-chart__movement">' + badge(entry) + preorderBadge + '</div>';
+      html += '<div class="sd-chart__movement">' + badge(entry) + '</div>';
       html += imgHtml;
       html += '<div class="sd-chart__info">';
       html += '<p class="sd-chart__product-title">' + entry.title.replace(/</g, '&lt;') + '</p>';
-      html += '<p class="sd-chart__meta">' + metaText + '</p>';
+      var preorderBadge = entry.preorder ? ' <span class="sd-chart__badge sd-chart__badge--preorder">Pre-order</span>' : '';
+      html += '<p class="sd-chart__meta">' + metaText + preorderBadge + '</p>';
       html += '</div>';
       html += unitsHtml;
       html += '</a></li>';
